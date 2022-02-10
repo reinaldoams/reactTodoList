@@ -1,0 +1,53 @@
+html {
+    background-color: rgb(225, 235, 235);
+}
+
+button {
+    background-color: rgb(47, 14, 47);
+    color: white;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 5%;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+    font-family: monospace;
+}
+
+.TodoCreator {
+    margin-bottom: 3rem;
+}
+
+.TodoCreator button, .TodoCreator input {
+    padding: 1rem;
+}
+
+.cancel-button {
+    width: 100%;
+}
+
+.TodoList {
+    border: 1px black solid;
+    background-color:azure;
+    padding: 8rem;
+    border-radius: 5%;
+    min-width: 20rem;
+}
+
+.TodoItem {
+    font-size: 1.5rem;
+}
+
+.editHidden {
+    display: none;
+}
+
+.checked p {
+    text-decoration: line-through;
+}
